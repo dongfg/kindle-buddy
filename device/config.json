@@ -1,0 +1,12 @@
+{
+  "utc_offset_hours": 8,
+  "sync_time_on_start": true,
+  "ntp_servers": ["ntp.aliyun.com", "time.cloudflare.com"],
+  "schedule": {
+    "enabled": true,
+    "workdays": [0, 1, 2, 3, 4, 5],
+    "wake_hour": 8,
+    "sleep_hour": 18,
+    "manual_wake_minutes": 10
+  }
+}
